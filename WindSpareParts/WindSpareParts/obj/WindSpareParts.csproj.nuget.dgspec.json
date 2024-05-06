@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josep\\Desktop\\Datamatiker udd\\Visual Studio Projekter\\WindSpareParts\\WindSpareParts\\WindSpareParts.csproj": {}
+    "C:\\Users\\Hedwi\\Source\\Repos\\Team13-UCL\\WindSparePart\\WindSpareParts\\WindSpareParts\\WindSpareParts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josep\\Desktop\\Datamatiker udd\\Visual Studio Projekter\\WindSpareParts\\WindSpareParts\\WindSpareParts.csproj": {
+    "C:\\Users\\Hedwi\\Source\\Repos\\Team13-UCL\\WindSparePart\\WindSpareParts\\WindSpareParts\\WindSpareParts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josep\\Desktop\\Datamatiker udd\\Visual Studio Projekter\\WindSpareParts\\WindSpareParts\\WindSpareParts.csproj",
+        "projectUniqueName": "C:\\Users\\Hedwi\\Source\\Repos\\Team13-UCL\\WindSparePart\\WindSpareParts\\WindSpareParts\\WindSpareParts.csproj",
         "projectName": "WindSpareParts",
-        "projectPath": "C:\\Users\\josep\\Desktop\\Datamatiker udd\\Visual Studio Projekter\\WindSpareParts\\WindSpareParts\\WindSpareParts.csproj",
-        "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josep\\Desktop\\Datamatiker udd\\Visual Studio Projekter\\WindSpareParts\\WindSpareParts\\obj\\",
+        "projectPath": "C:\\Users\\Hedwi\\Source\\Repos\\Team13-UCL\\WindSparePart\\WindSpareParts\\WindSpareParts\\WindSpareParts.csproj",
+        "packagesPath": "C:\\Users\\Hedwi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hedwi\\Source\\Repos\\Team13-UCL\\WindSparePart\\WindSpareParts\\WindSpareParts\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hedwi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

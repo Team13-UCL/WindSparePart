@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\josep\Desktop\Datamatiker udd\Visual Studio Projekter\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\
+C:\Users\Hedwi\Source\Repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\
 WindSpareParts
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\josep\Desktop\Datamatiker udd\Visual Studio Projekter\WindSpareParts\WindSpareParts\App.xaml
-11407045341
+C:\Users\Hedwi\Source\Repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\App.xaml
+21797877698
 
-81806400584
-198155382431
-MainWindow.xaml;
+9964774847
+198915248976
+MainWindow.xaml;WelcomeMessage.xaml;
 
-False
+True
 

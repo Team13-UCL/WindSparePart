@@ -20,5 +20,50 @@ namespace WindSpareParts
         {
             InitializeComponent();
         }
+
+        private void OpretTilbud_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void FjernTilbud_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void KundeTilbud_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OpretProdukt_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void FjernProdukter_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void VisProdukter_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OpretKunde_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void KundeOverblik_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void RedigerKunde_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        
     }
 }
