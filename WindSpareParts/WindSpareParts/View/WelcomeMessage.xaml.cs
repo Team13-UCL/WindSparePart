@@ -27,7 +27,7 @@ namespace WindSpareParts
         private void StartTimer()
         {
             DispatcherTimer timer = new DispatcherTimer();
-            timer.Interval = TimeSpan.FromSeconds(3); // The amount of time before it changes the window
+            timer.Interval = TimeSpan.FromSeconds(1); // The amount of time before it changes the window
             timer.Tick += Timer_Tick;
             timer.Start();
         }
