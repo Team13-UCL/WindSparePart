@@ -11,31 +11,37 @@
         WindowStartupLocation="CenterScreen"
         Background="Transparent">
 
-    <Grid ShowGridLines="True"
-          Margin="0,0,0,-6">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
 
         <Border Background="#282D33"
                 BorderBrush="#3A4149"
                 BorderThickness="6"
-                CornerRadius="8,8,0,8"
-                 />
+                CornerRadius="8,8,0,8" />
 
         <TextBlock x:Name="MainPage"
-                   HorizontalAlignment="Center"
+                   HorizontalAlignment="Left"
                    TextWrapping="Wrap"
                    Text="Wind Spare Parts"
                    VerticalAlignment="Top"
-                   Width="704"
+                   Width="707"
                    Height="120"
                    Background="#282D33"
                    FontSize="100"
                    Foreground="#6AB93A"
                    FontFamily="Times New Roman"
-                   Margin="0,40,0,0"
-                   />
+                   Margin="333,56,0,0" />
 
         <TextBlock HorizontalAlignment="Left"
-                   Margin="267,218,0,0"
+                   Margin="647,218,0,0"
                    TextWrapping="Wrap"
                    Text="Tilbud"
                    VerticalAlignment="Top"
@@ -43,8 +49,8 @@
                    FontSize="30"
                    Foreground="#FFFFFF"
                    FontFamily="Times New Roman" />
-        <TextBlock HorizontalAlignment="Center"
-                   Margin="0,218,0,0"
+        <TextBlock HorizontalAlignment="Left"
+                   Margin="976,218,0,0"
                    TextWrapping="Wrap"
                    Text="Produkter"
                    VerticalAlignment="Top"
@@ -52,63 +58,78 @@
                    FontSize="30"
                    Foreground="#FFFFFF"
                    FontFamily="Times New Roman"
-                    />
-        <TextBlock HorizontalAlignment="Right"
-                   Margin="0,218,250,0"
+                   RenderTransformOrigin="0.558,0.566" />
+        <TextBlock HorizontalAlignment="Left"
+                   Margin="260,218,0,0"
                    TextWrapping="Wrap"
                    Text="Kunder"
                    VerticalAlignment="Top"
                    Background="#282D33"
                    FontSize="30"
                    Foreground="#FFFFFF"
-                   FontFamily="Times New Roman" />
+                   FontFamily="Times New Roman"
+                   Width="92" />
 
         <Button Content="Opret Tilbud"
-                Margin="225,309,912,320"
+                Margin="226,308,914,323"
                 BorderThickness="0"
                 Background="LightBlue"
                 BorderBrush="Transparent"
                 RenderTransformOrigin="0.5,0.67"
-                Click="OpretTilbud_Click" HorizontalContentAlignment="Center" Padding="-4,1,1,1" Width="160" Height="70" />
+                Click="OpretTilbud_Click"
+                HorizontalContentAlignment="Center"
+                Padding="-4,1,1,1"
+                Width="160"
+                Height="70" />
         <Button Content="Fjern Tilbud"
-                Margin="225,443,912,184"
+                Margin="226,416,914,215"
                 BorderThickness="0"
                 Background="LightBlue"
                 BorderBrush="Transparent"
                 RenderTransformOrigin="0.5,0.67"
-                Click="FjernTilbud_Click" Width="160" Height="70" />
+                Click="FjernTilbud_Click"
+                Width="160"
+                Height="70" />
         <Button Content="Kunde tilbud??"
-                Margin="225,584,912,43"
+                Margin="226,523,914,108"
                 BorderThickness="0"
                 Background="LightBlue"
                 BorderBrush="Transparent"
                 RenderTransformOrigin="0.5,0.67"
-                Click="KundeTilbud_Click" Width="160" Height="70" />
+                Click="KundeTilbud_Click"
+                Width="160"
+                Height="70" />
         <Button Content="Opret/søg produkt"
                 Margin="600,308,528,323"
                 BorderThickness="0"
                 Background="LightBlue"
                 BorderBrush="Transparent"
                 RenderTransformOrigin="0.5,0.67"
-                Click="OpretProdukt_Click" Width="160" Height="70" />
+                Click="OpretProdukt_Click"
+                Width="160"
+                Height="70" />
         <Button Content="Fjern produkter"
-                Margin="600,435,528,196"
+                Margin="606,416,534,215"
                 BorderThickness="0"
                 Background="LightBlue"
                 BorderBrush="Transparent"
                 RenderTransformOrigin="0.5,0.67"
-                Click="FjernProdukter_Click" Width="160" Height="70" />
+                Click="FjernProdukter_Click"
+                Width="160"
+                Height="70" />
         <Button Content="Vis Produkter"
-                Margin="600,568,528,63"
+                Margin="606,523,534,108"
                 BorderThickness="0"
                 Background="LightBlue"
                 BorderBrush="Transparent"
                 RenderTransformOrigin="0.5,0.67"
-                Click="VisProdukter_Click" Width="160" Height="70" />
+                Click="VisProdukter_Click"
+                Width="160"
+                Height="70" />
         <Button Content="Opret Kunde"
                 Height="70"
                 Width="160"
-                Margin="955,308,245,332"
+                Margin="955,308,185,323"
                 BorderThickness="0"
                 Background="LightBlue"
                 BorderBrush="Transparent"
@@ -117,7 +138,7 @@
         <Button Content="Kunde Overblik"
                 Height="70"
                 Width="160"
-                Margin="955,416,245,224"
+                Margin="955,416,185,215"
                 BorderThickness="0"
                 Background="LightBlue"
                 BorderBrush="Transparent"
@@ -127,7 +148,7 @@
                 Content="Rediger Kunde"
                 Height="70"
                 Width="160"
-                Margin="955,529,0,111"
+                Margin="955,523,0,108"
                 BorderThickness="0"
                 Background="LightBlue"
                 BorderBrush="Transparent"
