@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Hedwi\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\App.xaml
-4-393951070
+13-1272737889
 
-9584756801
+18-1528630544
 198915248976
-View\MainWindow.xaml;View\SearchedProduct.xaml;View\SearchProduct.xaml;View\WelcomeMessage.xaml;
+View\Clients\ClientOverview.xaml;View\Clients\CreateClient.xaml;View\Clients\EditClients.xaml;View\Discounts\ClientDiscount.xaml;View\Discounts\CreateDiscount.xaml;View\Discounts\RemoveDiscount.xaml;View\MainWindow.xaml;View\Products\ClientDiscont.xaml;View\Products\RemoveProducts.xaml;View\Products\SearchedProduct.xaml;View\Products\SearchProduct.xaml;View\Products\ViewProducts.xaml;View\WelcomeMessage.xaml;
 
 False
 

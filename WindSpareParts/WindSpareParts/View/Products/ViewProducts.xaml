@@ -1,0 +1,44 @@
+﻿<Window x:Class="WindSpareParts.View.Products.ViewProducts"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindSpareParts.View.Products"
+        mc:Ignorable="d"
+        Title="ViewProducts"
+        Height="700"
+        Width="1300"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"
+                              MinWidth="1300" />
+            <ColumnDefinition Width="0*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"
+                           MinHeight="684.04" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="0*" />
+        </Grid.RowDefinitions>
+
+        <Border Background="#282D33"
+                BorderBrush="#3A4149"
+                BorderThickness="6"
+                CornerRadius="8,8,0,8" />
+
+        <TextBlock x:Name="MainPage"
+                   HorizontalAlignment="Left"
+                   TextWrapping="Wrap"
+                   Text="Wind Spare Parts"
+                   VerticalAlignment="Top"
+                   Width="707"
+                   Height="120"
+                   Background="#282D33"
+                   FontSize="100"
+                   Foreground="#6AB93A"
+                   FontFamily="Times New Roman"
+                   Margin="333,56,0,0" />
+    </Grid>
+</Window>
