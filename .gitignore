@@ -396,5 +396,3 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-/WindSpareParts/WindSpareParts/Model/inFlow_ProductDetails.xlsx
-/WindSpareParts/WindSpareParts/Model/inFlow_ProductDetailskommakopi.csv
