@@ -5,11 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WindSpareParts"
         mc:Ignorable="d"
-        Title="SearchedProduct"
-        Height="700"
-        Width="1300"
-        WindowStartupLocation="CenterScreen"
-        Background="Transparent">
+        Title="SearchedProduct" Height="450" Width="1400">
     <Grid>
         <Border Background="#282D33"
 BorderBrush="#3A4149"
