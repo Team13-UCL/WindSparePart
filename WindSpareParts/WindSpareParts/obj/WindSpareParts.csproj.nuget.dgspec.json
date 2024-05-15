@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nbjer\\source\\repos\\Team13-UCL\\WindSparePart\\WindSpareParts\\WindSpareParts\\WindSpareParts.csproj": {}
+    "C:\\Users\\nbjer\\Source\\Repos\\Team13-UCL\\WindSparePart\\WindSpareParts\\WindSpareParts\\WindSpareParts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nbjer\\source\\repos\\Team13-UCL\\WindSparePart\\WindSpareParts\\WindSpareParts\\WindSpareParts.csproj": {
+    "C:\\Users\\nbjer\\Source\\Repos\\Team13-UCL\\WindSparePart\\WindSpareParts\\WindSpareParts\\WindSpareParts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nbjer\\source\\repos\\Team13-UCL\\WindSparePart\\WindSpareParts\\WindSpareParts\\WindSpareParts.csproj",
+        "projectUniqueName": "C:\\Users\\nbjer\\Source\\Repos\\Team13-UCL\\WindSparePart\\WindSpareParts\\WindSpareParts\\WindSpareParts.csproj",
         "projectName": "WindSpareParts",
-        "projectPath": "C:\\Users\\nbjer\\source\\repos\\Team13-UCL\\WindSparePart\\WindSpareParts\\WindSpareParts\\WindSpareParts.csproj",
+        "projectPath": "C:\\Users\\nbjer\\Source\\Repos\\Team13-UCL\\WindSparePart\\WindSpareParts\\WindSpareParts\\WindSpareParts.csproj",
         "packagesPath": "C:\\Users\\nbjer\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\nbjer\\Source\\Repos\\Team13-UCL\\WindSparePart\\WindSpareParts\\WindSpareParts\\obj\\",
         "projectStyle": "PackageReference",
