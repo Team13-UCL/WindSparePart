@@ -61,10 +61,15 @@ C:\Users\nbjer\Source\Repos\Team13-UCL\WindSparePart\WindSpareParts\WindSparePar
 C:\Users\nbjer\Source\Repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\view\WelcomeMessage.g.cs
 C:\Users\nbjer\Source\Repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\view\MainWindow.baml
 C:\Users\nbjer\Source\Repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\view\WelcomeMessage.baml
+C:\Users\Hedwi\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\SearchProduct.baml
 C:\Users\Hedwi\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\MainWindow.g.cs
+C:\Users\Hedwi\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\SearchedProduct.g.cs
+C:\Users\Hedwi\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\SearchProduct.g.cs
 C:\Users\Hedwi\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\WelcomeMessage.g.cs
 C:\Users\Hedwi\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\MainWindow.baml
+C:\Users\Hedwi\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\SearchedProduct.baml
 C:\Users\Hedwi\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\WelcomeMessage.baml
+<<<<<<< HEAD
 C:\Users\Hedwi\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\Products\SearchProduct.baml
 C:\Users\Hedwi\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\Clients\ClientOverview.g.cs
 C:\Users\Hedwi\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\Clients\CreateClient.g.cs
@@ -107,3 +112,5 @@ C:\Users\nbjer\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSparePar
 C:\Users\nbjer\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\Products\ClientDiscont.baml
 C:\Users\nbjer\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\Products\RemoveProducts.baml
 C:\Users\nbjer\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\Products\ViewProducts.baml
+=======
+>>>>>>> edd018342c6d1491495312e515a026528ea3bb80

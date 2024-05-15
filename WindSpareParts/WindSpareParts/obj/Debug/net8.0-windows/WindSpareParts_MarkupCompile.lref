@@ -1,5 +1,6 @@
 ﻿
 
+<<<<<<< HEAD
 FC:\Users\nbjer\Source\Repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\View\Clients\ClientOverview.xaml;;
 FC:\Users\nbjer\Source\Repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\View\Clients\CreateClient.xaml;;
 FC:\Users\nbjer\Source\Repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\View\Clients\EditClients.xaml;;
@@ -11,4 +12,9 @@ FC:\Users\nbjer\Source\Repos\Team13-UCL\WindSparePart\WindSpareParts\WindSparePa
 FC:\Users\nbjer\Source\Repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\View\Products\RemoveProducts.xaml;;
 FC:\Users\nbjer\Source\Repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\View\Products\ViewProducts.xaml;;
 FC:\Users\nbjer\Source\Repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\View\WelcomeMessage.xaml;;
+=======
+FC:\Users\Hedwi\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\View\MainWindow.xaml;;
+FC:\Users\Hedwi\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\View\SearchedProduct.xaml;;
+FC:\Users\Hedwi\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\View\WelcomeMessage.xaml;;
+>>>>>>> edd018342c6d1491495312e515a026528ea3bb80
 
