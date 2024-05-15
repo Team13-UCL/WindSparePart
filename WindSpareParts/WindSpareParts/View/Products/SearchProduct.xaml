@@ -4,40 +4,36 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="SearchProduct"
-        Height="700"
-        Width="1300"
-        WindowStartupLocation="CenterScreen"
-        Background="Transparent">
+        Title="SearchProduct" Height="678" Width="1400">
+
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"
-                              MinWidth="1300" />
-            <ColumnDefinition Width="0*" />
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"
-                           MinHeight="684.04" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="0*" />
-        </Grid.RowDefinitions>
-
         <Border Background="#282D33"
-                BorderBrush="#3A4149"
-                BorderThickness="6"
-                CornerRadius="8,8,0,8" />
+        BorderBrush="#3A4149"
+        BorderThickness="6"
+        CornerRadius="8,8,0,8"
+         >
 
+
+        </Border>
+
+        <TextBox x:Name="Searchbox"  HorizontalAlignment="Center" Margin="0,184,0,0" TextWrapping="Wrap" Text="Søg eller opret produkt" VerticalAlignment="Top" Width="1380" Height="326" FontWeight="Bold" Background="#FF3A4149" Foreground="White"  KeyDown="Searchbox_KeyDown"  />
         <TextBlock x:Name="MainPage"
-                   HorizontalAlignment="Left"
-                   TextWrapping="Wrap"
-                   Text="Wind Spare Parts"
-                   VerticalAlignment="Top"
-                   Width="707"
-                   Height="120"
-                   Background="#282D33"
-                   FontSize="100"
-                   Foreground="#6AB93A"
-                   FontFamily="Times New Roman"
-                   Margin="333,56,0,0" />
+           HorizontalAlignment="Center"
+           TextWrapping="Wrap"
+           Text="Wind Spare Parts"
+           VerticalAlignment="Top"
+           Width="704"
+           Height="120"
+           Background="#282D33"
+           FontSize="100"
+           Foreground="#6AB93A"
+           FontFamily="Times New Roman"
+           Margin="0,40,0,0"
+           />
+        <Button x:Name="search" Content="Søg" Margin="642,540,642,48" Click="search_Click" Background="LightBlue"/>
+        <Button x:Name="CreateProduct" Content="Opret produkt&#xD;&#xA;Kun et af gangen" Margin="936,540,348,48" Click="CreateProduct_Click" Background="LightBlue" Foreground="Black" IsEnabled="False" 
+           />
+        <Button x:Name="Clear" Content="Clear" Margin="348,540,936,48" Click="Clear_Click" Background="LightBlue" />
+
     </Grid>
 </Window>

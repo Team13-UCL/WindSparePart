@@ -11,60 +11,72 @@ namespace WindSpareParts.Model
 {
     public class ProductRepository
     {
-        private List<Product> products; // liste til at gemme produkterne
-        List<List<string>> datas = new List<List<string>>(); // Opretter en liste til at gemme dataene fra CSV-filen
-        SearchedProduct searchedProduct = new SearchedProduct(); // Opretter et nyt objekt af klassen SearchedProduct
-
+        List<List<string>> products = new List<List<string>>(); // Opretter en liste til at gemme dataene fra CSV-filen
         
-
-        public ProductRepository(SearchedProduct searchedProduct)
-        {
-            this.searchedProduct = searchedProduct; // Sætter det nye objekt af klassen SearchedProduct til at være det objekt, der er blevet sendt med som parameter
-            products = new List<Product>(); //initialisering af produktlisten
-        }
-
         public void CreateProduct(Product product)
         {
-            products.Add(product); //det nye produkt tilføjes til listen products
+            //products.Add(product); //det nye produkt tilføjes til listen products
         }
 
         public void DeleteProduct(Product product)
         {
-            products.Remove(product); //sletter et produkt fra listen products
+            //products.Remove(product); //sletter et produkt fra listen products
         }
 
-        
+
         public List<List<string>> ReadFromFile()
         {
-            string path = "C:\\Users\\nbjer\\source\\repos\\Team13-UCL\\WindSparePart\\WindSpareParts\\WindSpareParts\\Model\\inFlow_ProductDetails.csv";
+            // super smart, den går 3 mappetrin op og ind i Model-mappen og finder csv-filen
+            string path = System.IO.Path.Combine(Directory.GetCurrentDirectory(), "..\\..\\..\\Model", "inFlow_ProductDetails.csv");
 
-            
+
             string[] lines = File.ReadAllLines(path); // Læser alle linjer fra CSV-filen og gemmer dem i et array af strenge
 
             foreach (string line in lines) //Itererer gennem hver linje i CSV-filen
             {
                 // Opdeler den aktuelle linje ved kommaet og gemmer resultaterne i en liste af strenge
                 List<string> columns = line.Split(',').ToList();
-                datas.Add(columns); // Tilføjer den liste af kolonner til hovedlisten af data
+                products.Add(columns); // Tilføjer den liste af kolonner til hovedlisten af datas
             }
-            return datas;
+            return products;
         }
 
-        public void SearchProduct(string searchText)  
+        public List<string> SearchProduct(string searchWord)
         {
-            string searchWord = searchText.ToLower(); // Converter søgeordet til små bogstaver
-            foreach (List<string> line in datas) // Itererer gennem hver linje i dataene
+            List<string> searchResults = new List<string>();
+
+
+            searchWord = searchWord.ToLower(); // Convert search word to lower case
+            foreach (List<string> line in products) // Iterate through each line in the data
             {
-                foreach (var item in line) // Itererer gennem hver kolonne i linjen
+                foreach (var item in line) // Iterate through each column in the line
                 {
-                    if (item.ToLower().Contains(searchWord)) // Hvis kolonnen indeholder søgeordet
+                    if (item.ToLower().Contains(searchWord)) // If the column contains the search word
                     {
-                        this.searchedProduct.Results.Text += string.Join(",", line) + "\n"; // Tilføj kolonnen til resultaterne
-                        
+                        searchResults.Add(string.Join(",", line)); // Add the column to the results
                     }
+
                 }
             }
-            
+            if (searchResults.Count == 0) // hvis ingen resultater er fundet
+            {
+                searchResults.Add("Produktet findes ikke");
+            }
+            return searchResults;
         }
+
+        public void SaveToFile(string searchText)
+        {
+
+            // super smart, den går 3 mappetrin op og ind i Model-mappen og finder csv-filen
+            string path = System.IO.Path.Combine(Directory.GetCurrentDirectory(), "..\\..\\..\\Model", "oprettedeprodukter.csv");
+
+            using (StreamWriter sw = new StreamWriter(path, true)) //true for at tilføje til filen og ikke overskrive
+            {
+                sw.WriteLine(searchText);
+            }
+
+        }
+
     }
 }

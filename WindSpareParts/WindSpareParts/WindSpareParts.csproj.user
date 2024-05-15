@@ -27,9 +27,6 @@
     <Compile Update="View\Products\RemoveProducts.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\Products\SearchedProduct.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="View\Products\SearchProduct.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -66,9 +63,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\MainWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="View\Products\SearchedProduct.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Products\SearchProduct.xaml">
