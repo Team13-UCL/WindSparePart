@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WindSpareParts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad9a7b8c548484a26fb090e1ee228f4c51dfb09b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b350e68acee5eb7e7c9e3ec74192831c6d8c9ee1")]
 [assembly: System.Reflection.AssemblyProductAttribute("WindSpareParts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WindSpareParts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
