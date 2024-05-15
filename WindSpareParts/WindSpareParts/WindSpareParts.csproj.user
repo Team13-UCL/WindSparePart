@@ -3,14 +3,10 @@
   <PropertyGroup />
   <ItemGroup />
   <ItemGroup>
-    <Compile Update="View\SearchedProduct.xaml.cs">
+    <Compile Update="View\Clients\ClientOverview.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-<<<<<<< HEAD
     <Compile Update="View\Clients\CreateClient.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="View\Clients\EditClients.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\Discounts\ClientDiscount.xaml.cs">
@@ -32,9 +28,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\Products\ViewProducts.xaml.cs">
-=======
-    <Compile Update="View\SearchProduct.xaml.cs">
->>>>>>> edd018342c6d1491495312e515a026528ea3bb80
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\WelcomeMessage.xaml.cs">
@@ -42,20 +35,37 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="View\Clients\ClientOverview.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Clients\CreateClient.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Clients\EditClients.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Discounts\ClientDiscount.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Discounts\CreateDiscount.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Discounts\RemoveDiscount.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Products\ClientDiscont.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Products\RemoveProducts.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-<<<<<<< HEAD
     <Page Update="View\Products\SearchProduct.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Products\ViewProducts.xaml">
-=======
-    <Page Update="View\SearchedProduct.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="View\SearchProduct.xaml">
->>>>>>> edd018342c6d1491495312e515a026528ea3bb80
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\WelcomeMessage.xaml">

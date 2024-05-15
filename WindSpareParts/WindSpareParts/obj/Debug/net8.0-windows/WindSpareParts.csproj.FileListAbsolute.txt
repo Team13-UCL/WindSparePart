@@ -114,3 +114,6 @@ C:\Users\nbjer\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSparePar
 C:\Users\nbjer\source\repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\Products\ViewProducts.baml
 =======
 >>>>>>> edd018342c6d1491495312e515a026528ea3bb80
+C:\Users\nbjer\Source\Repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\SearchProduct.baml
+C:\Users\nbjer\Source\Repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\SearchedProduct.g.cs
+C:\Users\nbjer\Source\Repos\Team13-UCL\WindSparePart\WindSpareParts\WindSpareParts\obj\Debug\net8.0-windows\View\SearchProduct.g.cs
